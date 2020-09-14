@@ -3,7 +3,7 @@
 > A dark theme for [Visual Studio Code](http://code.visualstudio.com).
 
 <!-- FIX THIS ONCE WE ARE HAPPY -->
-![Screenshot](https://raw.githubusercontent.com/dracula/visual-studio-code/master/screenshot.png)
+<!-- ![Screenshot](https://raw.githubusercontent.com/dracula/visual-studio-code/master/screenshot.png) -->
 
 ## Install
 
