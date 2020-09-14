@@ -1,0 +1,65 @@
+{
+  "name": "theme-abandoned-ashes",
+  "version": "1.0.0",
+  "displayName": "Abandoned Ashes Official",
+  "homepage": "https://github.com/alexinslc/abandoned-ashes#readme",
+  "description": "Official Abandoned Ashes Theme. A dark theme for vscode.",
+  "publisher": "alexinslc",
+  "license": "MIT",
+  "scripts": {
+    "build": "node ./scripts/build.js",
+    "lint": "node ./scripts/lint.js",
+    "package": "vsce package -o ./bin/abandoned-ashes.vsix",
+    "vscode:prepublish": "npm run build",
+    "vsce-publish": "vsce publish"
+  },
+  "maintainers": [
+    "Alex Lutz <alexinslc@gmail.com>"
+  ],
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexinslc/abandoned-ashes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alexinslc/abandoned-ashes/issues"
+  },
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "abandoned",
+    "ashes",
+    "dark",
+    "theme",
+    "color-theme"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#3c4557",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Abandoned Ashes",
+        "uiTheme": "vs-dark",
+        "path": "./theme/abandoned-ashes.json"
+      },
+      {
+        "label": "Abandoned Ashes Soft",
+        "uiTheme": "vs-dark",
+        "path": "./theme/abandoned-ashes-soft.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "js-yaml": "^3.14.0",
+    "prettier": "^2.1.1",
+    "tinycolor2": "^1.4.1",
+    "vsce": "^1.79.5"
+  }
+}

@@ -1,0 +1,74 @@
+    # - &CYAN      '#8BE9FD' --> FOUNTAIN
+    # - &GREEN     '#50FA7B' --> BURNT
+    # - &ORANGE    '#FFB86C' --> WHISKEY
+    # - &PINK      '#FF79C6' --> TRINIDAD
+    # - &PURPLE    '#BD93F9' --> ORACLE
+    # - &RED       '#FF5555' --> GEYSER
+    # - &YELLOW    '#F1FA8C' --> MIMOSA
+
+    # CURRENT TESTING
+    # BG        #20212E
+    # FG        #F8F8F2
+    # FOUNTAIN  #51A5BF
+    # BURNT     #E15B18
+    # WHISKEY   #D19660
+    # TRINIDAD  #E1440E
+    # ORACLE    #3C6E77
+    # GEYSEY    #D1E0E5
+    # MIMOSA    #E9A33A
+    # Fires /
+    - &TRINIDAD     '#E1440E'
+    - &BURNT        '#E15B18'
+    - &MOJO         '#C25635'
+    - &BRANDYPUNCH  '#D88334'
+    - &MIMOSA       '#E9A33A'
+    - &FREESIA      '#FDDF86'
+    # Wood / Deck
+    - &MASALA       '#3F3835'
+    - &COCOABEAN    '#49281D'
+    - &WHISKEY      '#D19660'
+    - &TUSSOC       '#C27B4A'
+    - &PAARL        '#AA5231'
+    - &CORALREEF    '#CABFA4'
+    # Complimentary to Fire
+    - &BLUEDIANNE   '#1B3F49'
+    - &ORACLE       '#3C6E77'
+    - &GEYSER       '#D1E0E5'
+    - &GLACIER      '#80AFC9'
+    - &SINBAD       '#A3C9D5'
+    - &SANJAUN      '#2D4E6D'
+    - &FOUNTAIN     '#51A5BF'
+    - &BOSTONBLUE   '#4296B3'
+    # Dark
+    - &THUNDER      '#2C2627'
+    - &Ebony        '#221B1B'
+    - &STEELGRAY    '#20212E'
+    - &FLINT        '#746C64'
+    - &JUMBO        '#80808C'
+    - &GRAY         '#8C8C8C'
+    - &ROCKS        '#4a4d4a'
+    - &SHALE        '#84847c'
+    # Sea of Thieves Green
+    - &BRIGHTTURQ   '#3CF8B4'
+    - &MARSHLAND    '#040504'
+    - &VIRIDIAN     '#447C6C'
+    - &EMPEROR      '#545454'
+
+
+ansi:
+    - &COLOR0        '#21222C' # --> BG
+    - &COLOR1        '#FF5555' # --> RED
+    - &COLOR2        '#50FA7B' # --> GREEN
+    - &COLOR3        '#F1FA8C' # --> YELLOW
+    - &COLOR4        '#BD93F9' # --> PURPLE
+    - &COLOR5        '#FF79C6' # --> PINK
+    - &COLOR6        '#8BE9FD' # --> CYAN
+    - &COLOR7        '#F8F8F2' # --> FG
+    - &COLOR8        '#6272A4' # --> SOFT BG
+    - &COLOR9        '#FF6E6E' # --> SOFT RED
+    - &COLOR10       '#69FF94' # --> SOFT GREEN
+    - &COLOR11       '#FFFFA5' # --> SOFT YELLOW
+    - &COLOR12       '#D6ACFF' # --> SOFT PURPLE
+    - &COLOR13       '#FF92DF' # --> SOFT PINK
+    - &COLOR14       '#A4FFFF' # --> SOFT CYAN
+    - &COLOR15       '#FFFFFF' # --> SOFT FG
